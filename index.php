@@ -1,8 +1,14 @@
 <?php
+include_once "./inc/function.php";
+
+$age = calculAge("2001-04-08"); // permet de calculer mon age
+
 $css = [
+    "https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css",
     "./assets/css/reset.css",
     "./assets/css/style.css",
 ];
+
 $js = [
     "./assets/js/main.js",
 ]
