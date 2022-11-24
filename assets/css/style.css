@@ -4,15 +4,67 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-main {
+/* HEADER */
+
+#bandeau-superieur {
+    background-color: #d00000;
+    height: 5vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-main p {
-    font-size: 2rem;
-    font-weight: 600;
-    color: black;
+.wrapper-bandeau-superieur {
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-information-bandeau-superieur a {
+    color: white;
+    white-space: nowrap;
+
+}
+
+#container-information-bandeau-superieur a:hover {
+    text-decoration: underline;
+}
+
+#container-information-bandeau-superieur a:first-child {
+    margin-right: 20px;
+}
+
+#button-devis {
+    cursor: pointer;
+    white-space: nowrap;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+#button-devis:hover {
+    outline: 1px solid white;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper-bandeau-superieur {
+        width: 90%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #button-devis {
+        padding: 2px 12px;
+        font-size: 10px;
+    }
+
+
+
+    #container-information-bandeau-superieur a {
+        font-size: 13px;
+    }
 }
