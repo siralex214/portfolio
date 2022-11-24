@@ -2,7 +2,7 @@
 include_once "./inc/function.php";
 
 $age = calculAge("2001-04-08"); // permet de calculer mon age
-
+require_once "./inc/constant/main.php"; // permet de récupérer les constantes
 $css = [
     "https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css",
     "./assets/css/reset.css",
@@ -11,30 +11,18 @@ $css = [
 
 $js = [
     "./assets/js/main.js",
-]
+];
+$name_page = $constant["ROUTE"]["home"]["name"] ?? "404"; // permet de récupérer le nom de la page
+$meta_description = "Bienvenue sur le site d'Alexis Mouchon, développeur web en freelance. Je suis un développeur web de 21 ans, je suis passionné par le développement web et le développement mobile."
 ?>
 
 
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Alexis Mouchon | Portfolio</title>
-    <?php foreach ($css as $value): ?>
-        <link rel="stylesheet" href="<?= $value ?>">
-    <?php endforeach; ?>
-    <?php foreach ($js as $value): ?>
-        <script src="<?= $value ?>" defer></script>
-    <?php endforeach; ?>
-</head>
+<?php include_once "./inc/head.php" ?>
 <body>
-<header></header>
-<main>
-    <p>Work in progress!</p>
-</main>
-<footer></footer>
+<?php include_once "./inc/header.php" ?>
+<main></main>
+<?php include_once "./inc/footer.php" ?>
 </body>
 </html>
