@@ -62,8 +62,13 @@ $meta_description = "Bienvenue sur le site d'Alexis Mouchon, développeur web en
             </div>
         </div>
     </section>
-    <section id="fourth-part">
 
+
+    <section id="fourth-part">
+        <div class="bandeau-competences-1">
+            <span class="styled-anime1 general-txt"> &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - </span>
+            <span class="styled-anime3 general-txt"> &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - </span>
+        </div>
     </section>
 </main>
 <?php include_once "./inc/footer.php" ?>

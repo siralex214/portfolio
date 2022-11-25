@@ -374,4 +374,78 @@
         margin-bottom: 50px;
         width: 100%;
     }
+
+    #second-part {
+        margin-top: 40px;
+    }
+
+    #third-part {
+        margin-top: 40px;
+    }
+}
+
+/* ANIMATION COMPETENCES */
+
+.card:hover {
+    animation-play-state: paused;
+}
+
+#fourth-part {
+    margin-top: 100px;
+    /*border: 1px solid black;*/
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.bandeau-competences-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bandeau-competences-1 span {
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #d00000;
+    padding: 10px 0;
+
+}
+
+.general-txt {
+    white-space: nowrap;
+    position: absolute;
+    padding-right: 10px;
+    user-select: none;
+
+}
+
+.styled-anime1 {
+    animation: Scroll1 120s linear infinite;
+}
+
+.styled-anime3 {
+    top: 50px;
+    animation: ReverseScroll1 120s linear infinite;
+}
+
+
+@keyframes Scroll1 {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -560%;
+    }
+}
+
+@keyframes ReverseScroll1 {
+    0% {
+        left: -550%;
+    }
+
+    100% {
+        left: 130%;
+    }
 }

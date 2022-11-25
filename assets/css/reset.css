@@ -1,18 +1,22 @@
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     width: 100%;
     vertical-align: bottom;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul{
+ul {
     list-style: none;
+}
+
+body {
+    overflow-x: hidden;
 }
