@@ -22,7 +22,17 @@ $meta_description = "Bienvenue sur le site d'Alexis Mouchon, développeur web en
 <?php include_once "./inc/head.php" ?>
 <body>
 <?php include_once "./inc/header.php" ?>
-<main></main>
+<main>
+    <section id="firt-part">
+        <div id="container-welcome">
+            <h1 id="title">Besoin d'aide pour développer <br> votre activitée sur le web?</h1>
+            <h2 id="subtitle">Vous êtes au bon endroit.</h2>
+            <a href="./">
+                <button id="button-formule">Voir les formules</button>
+            </a>
+        </div>
+    </section>
+</main>
 <?php include_once "./inc/footer.php" ?>
 </body>
 </html>
