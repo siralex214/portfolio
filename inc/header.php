@@ -14,7 +14,7 @@
         </div>
     </div>
 </section>
-<header style="position: sticky;top: 0">
+<header style="position: sticky;top: 0;z-index: 1">
     <section id="bandeau-inferieur" style="position:relative;">
         <div class="wrapper-bandeau-inferieur">
             <div>
