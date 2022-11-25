@@ -14,11 +14,12 @@
 }
 
 .wrapper-bandeau-superieur {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #container-information-bandeau-superieur a {
@@ -49,13 +50,6 @@
     outline: 1px solid white;
 }
 
-@media screen and (max-width: 1000px) {
-    .wrapper-bandeau-superieur {
-        width: 90%;
-        align-items: center;
-    }
-}
-
 @media screen and (max-width: 500px) {
     #button-devis {
         padding: 2px 12px;
@@ -76,7 +70,7 @@
 }
 
 .wrapper-bandeau-inferieur {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     max-width: 100%;
     color: white;
@@ -109,7 +103,8 @@
     margin-right: 0;
 }
 
-#firt-part {
+#first-part {
+    z-index: -1;
     position: relative;
     background: url("../img/background_top.jpg") no-repeat center center;
     height: 85vh;
@@ -161,4 +156,143 @@
     color: #d00000;
     background-color: white;
     font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    #container-welcome {
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+    }
+
+    #title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #title {
+        font-size: 30px;
+    }
+
+    #subtitle {
+        font-size: 15px;
+    }
+
+    #button-formule {
+        font-size: 15px;
+        padding: 5px 30px;
+    }
+}
+
+#second-part {
+    margin-top: 100px;
+    background: url("../img/background_code.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#second-part h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#second-part h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* MENU BURGER */
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    /*border: 2px solid #fff;*/
+}
+
+.menu-btn__burger {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+    transform: translateY(-15px);
+}
+
+.menu-btn__burger::after {
+    transform: translateY(15px);
+}
+
+.menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.active {
+    height: 130px !important;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    width: 100% !important;
+    text-align: center;
+    background-color: #000;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .menu-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        transition: height 0.5s ease-in-out;
+        height: 0px;
+        width: 0;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
 }

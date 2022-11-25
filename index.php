@@ -23,14 +23,18 @@ $meta_description = "Bienvenue sur le site d'Alexis Mouchon, développeur web en
 <body>
 <?php include_once "./inc/header.php" ?>
 <main>
-    <section id="firt-part">
+    <section id="first-part">
         <div id="container-welcome">
-            <h1 id="title">Besoin d'aide pour développer <br> votre activitée sur le web?</h1>
+            <h1 id="title">Besoin d'aide pour développer <br> votre activité sur le web?</h1>
             <h2 id="subtitle">Vous êtes au bon endroit.</h2>
             <a href="./">
                 <button id="button-formule">Voir les formules</button>
             </a>
         </div>
+    </section>
+    <section id="second-part">
+        <h3>Développeur web FullStack <br> sur Rouen depuis 2022</h3>
+        <h4>Création de site web, site vitrine, site e-commerce <br> et site sur-mesure</h4>
     </section>
 </main>
 <?php include_once "./inc/footer.php" ?>

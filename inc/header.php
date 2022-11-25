@@ -15,7 +15,7 @@
     </div>
 </section>
 <header style="position: sticky;top: 0">
-    <section id="bandeau-inferieur">
+    <section id="bandeau-inferieur" style="position:relative;">
         <div class="wrapper-bandeau-inferieur">
             <div>
                 <a href="/">
@@ -24,7 +24,10 @@
                 </a>
             </div>
             <div>
-                <nav>
+                <nav class="nav-menu">
+                    <div class="menu-btn">
+                        <div class="menu-btn__burger"></div>
+                    </div>
                     <ul class="menu">
                         <li><a href="./">Accueil</a></li>
                         <li><a href="./">Présentation</a></li>
