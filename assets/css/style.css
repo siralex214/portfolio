@@ -386,66 +386,99 @@
 
 /* ANIMATION COMPETENCES */
 
-.card:hover {
-    animation-play-state: paused;
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-460px * 7));
+    }
 }
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-460px * 7));
+    }
+}
+
+@-webkit-keyframes reversescroll {
+    0% {
+        transform: translateX(calc(-230px * 7));
+    }
+    100% {
+        transform: translateX(230px);
+    }
+}
+
+@keyframes reversescroll {
+    0% {
+        transform: translateX(calc(-460px * 7));
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slider {
+    /*background: white;*/
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 100px auto auto;
+}
+
+
+.slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.reverse-slide-track {
+    -webkit-animation: reversescroll 40s linear infinite;
+    animation: reversescroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}
+
+.slide img {
+    width: auto;
+}
+
+/* FIN ANIMATION COMPETENCES */
 
 #fourth-part {
     margin-top: 100px;
-    /*border: 1px solid black;*/
-    margin-bottom: 200px;
-    position: relative;
-}
-
-.bandeau-competences-1 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.bandeau-competences-1 span {
-    white-space: nowrap;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #d00000;
-    padding: 10px 0;
-
-}
-
-.general-txt {
-    white-space: nowrap;
-    position: absolute;
-    padding-right: 10px;
-    user-select: none;
-
-}
-
-.styled-anime1 {
-    animation: Scroll1 120s linear infinite;
-}
-
-.styled-anime3 {
-    top: 50px;
-    animation: ReverseScroll1 120s linear infinite;
-}
-
-
-@keyframes Scroll1 {
-    0% {
-        left: 100%;
-    }
-
-    100% {
-        left: -560%;
-    }
-}
-
-@keyframes ReverseScroll1 {
-    0% {
-        left: -550%;
-    }
-
-    100% {
-        left: 130%;
-    }
 }

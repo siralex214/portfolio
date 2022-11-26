@@ -63,12 +63,173 @@ $meta_description = "Bienvenue sur le site d'Alexis Mouchon, développeur web en
         </div>
     </section>
 
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="./assets/img/card-logo/html.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/css.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/javascript.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/php.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/mysql.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/nextjs.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/reactjs.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/mongodb.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/graphql.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/wordpress.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/typescript.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/angular.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/symfony.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/html.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/css.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/javascript.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/php.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/mysql.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/nextjs.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/reactjs.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/mongodb.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/graphql.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/wordpress.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/typescript.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/angular.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/symfony.png" height="100" width="250" alt=""/>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="reverse-slide-track">
+            <div class="slide">
+                <img src="./assets/img/card-logo/html.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/css.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/javascript.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/php.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/mysql.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/nextjs.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/reactjs.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/mongodb.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/graphql.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/wordpress.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/typescript.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/angular.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/symfony.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/html.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/css.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/javascript.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/php.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/mysql.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/nextjs.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/reactjs.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/mongodb.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/graphql.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/wordpress.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/typescript.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/angular.png" height="100" width="250" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="./assets/img/card-logo/symfony.png" height="100" width="250" alt=""/>
+            </div>
+        </div>
+    </div>
 
     <section id="fourth-part">
-        <div class="bandeau-competences-1">
-            <span class="styled-anime1 general-txt"> &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - </span>
-            <span class="styled-anime3 general-txt"> &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - &nbsp;HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - HTML - CSS - JS - PHP - MYSQL - NEXT JS - REACT JS - MONGO DB - GRAPH QL - WORDPRESS - TypeScript - Angular - Symfony - </span>
-        </div>
+
     </section>
 </main>
 <?php include_once "./inc/footer.php" ?>
